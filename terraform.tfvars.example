@@ -1,0 +1,7 @@
+# The certificate must contain the private key and cover this hostname.
+custom_domain        = "akashcreations.com"
+certificate_path     = "C:/secure-certificates/akashcreations-clean.p12"
+
+# Do not commit the certificate password. Supply it at apply time with
+# -var="certificate_password=..." or via the TF_VAR_certificate_password environment variable.
+certificate_password = ""
