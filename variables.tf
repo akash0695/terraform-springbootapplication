@@ -15,7 +15,7 @@ variable "docker_image" {
 
 variable "custom_domain" {
   type        = string
-  description = "Custom hostname for the Container App, for example www.example.com. Leave empty to disable custom-domain configuration."
+  description = "Custom hostname for the Container App. Leave empty to disable custom-domain configuration."
   default     = ""
 }
 
